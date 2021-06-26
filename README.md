@@ -73,7 +73,7 @@ whoami # Success!!
 
 ## Mitigation of Privilege Escalation
 
-![Networking%20&%20Multimedia%20Project%200f84e4b88d00401684d12b773ade1121/Untitled.png](Networking%20&%20Multimedia%20Project%200f84e4b88d00401684d12b773ade1121/Untitled.png)
+![images/privesc.png](images/privesc.png)
 
 ## Exposed Docker Socket
 
@@ -83,7 +83,7 @@ whoami # Success!!
 
 Docker socket 是一種 UNIX 的通訊端，docker cli 常用此執行 docker 指令，擁有 root 的權限。 `docker.sock` 原本不在 container 裡面，但在 container 裡的使用者有時候為了要管理或者建立別的 container，會需要把它 mount 進來。Mount 進來 container 裡會增加 attack surface 的風險。
 
-![Networking%20&%20Multimedia%20Project%200f84e4b88d00401684d12b773ade1121/Picture1.png](Networking%20&%20Multimedia%20Project%200f84e4b88d00401684d12b773ade1121/Picture1.png)
+![images/docker_socket.png](images/docker_socket.png)
 
 接下來是實驗 Demo 的流程：
 
