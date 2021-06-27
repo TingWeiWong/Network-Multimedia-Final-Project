@@ -1,6 +1,6 @@
 # Networking & Multimedia Project
 
-Group 10 翁挺瑋 郭律佑 林執晰
+Group 6 翁挺瑋 郭律佑 林執晰
 
 # Docker Breakout
 
