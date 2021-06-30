@@ -43,6 +43,7 @@ Cgroups 透過 cgroupfs 控制 Process 所能使用的記憶體容量或 CPU 資
 ## Privileged Escalation
 
 ```bash
+sudo apt-get install docker.io
 sudo usermod -aG docker evil
 su evil
 
